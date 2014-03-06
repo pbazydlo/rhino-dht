@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.DistributedHashTable", "Rhino.DistributedHashTable\Rhino.DistributedHashTable.csproj", "{4E8D44D2-505D-488C-B92C-51147748B104}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.DistributedHashTable.Tests", "Rhino.DistributedHashTable.Tests\Rhino.DistributedHashTable.Tests.csproj", "{C44B2EA9-28FD-4F05-B43B-A45231EE0FDC}"
