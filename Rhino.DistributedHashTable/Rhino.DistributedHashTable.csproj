@@ -121,11 +121,11 @@
     <None Include="Protocol\ProtocolDef.proto" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rhino.PersistentHashTable\Rhino.PersistentHashTable.csproj">
+    <ProjectReference Include="..\..\rhino-pht\Rhino.PersistentHashTable\Rhino.PersistentHashTable.csproj">
       <Project>{f30b2d63-ced5-4c8a-908f-0b5503d984a9}</Project>
       <Name>Rhino.PersistentHashTable</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Rhino.Queues\Rhino.Queues.csproj">
+    <ProjectReference Include="..\..\rhino-queues\Rhino.Queues\Rhino.Queues.csproj">
       <Project>{398bf580-41f5-418e-a017-19d19b289a97}</Project>
       <Name>Rhino.Queues</Name>
     </ProjectReference>

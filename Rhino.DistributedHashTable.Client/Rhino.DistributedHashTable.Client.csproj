@@ -69,19 +69,19 @@
     <Compile Include="Util\Crc32.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Rhino.DistributedHashTable\Rhino.DistributedHashTable.csproj">
-      <Project>{4E8D44D2-505D-488C-B92C-51147748B104}</Project>
-      <Name>Rhino.DistributedHashTable</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Rhino.PersistentHashTable\Rhino.PersistentHashTable.csproj">
-      <Project>{f30b2d63-ced5-4c8a-908f-0b5503d984a9}</Project>
-      <Name>Rhino.PersistentHashTable</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\ayende-open-source.snk">
       <Link>ayende-open-source.snk</Link>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\rhino-pht\Rhino.PersistentHashTable\Rhino.PersistentHashTable.csproj">
+      <Project>{f30b2d63-ced5-4c8a-908f-0b5503d984a9}</Project>
+      <Name>Rhino.PersistentHashTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rhino.DistributedHashTable\Rhino.DistributedHashTable.csproj">
+      <Project>{4e8d44d2-505d-488c-b92c-51147748b104}</Project>
+      <Name>Rhino.DistributedHashTable</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
